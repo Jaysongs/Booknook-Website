@@ -1,0 +1,19 @@
+{
+  "name": "booknook-website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "model.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "serve": "live-server",
+    "compile": ""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "scss": "^0.2.4"
+  }
+}
