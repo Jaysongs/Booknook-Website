@@ -8,12 +8,15 @@
   },
   "scripts": {
     "serve": "live-server",
-     "compile": "sass scss/styles.scss css/styles.css -w --no-source-map"
+    "compile": "sass scss/styles.scss css/styles.css -w --no-source-map"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "scss": "^0.2.4"
+  },
+  "devDependencies": {
+    "sass": "^1.79.4"
   }
 }

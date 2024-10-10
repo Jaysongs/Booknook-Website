@@ -1,0 +1,104 @@
+.footer-color {
+  color: #587C83;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin-bottom: 16px;
+}
+
+nav {
+  height: 100px;
+  border-bottom: solid 1px black;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+nav .logo {
+  width: 15%;
+  display: flex;
+  justify-content: center;
+}
+nav .logo p {
+  margin-top: auto;
+  padding-left: 15px;
+}
+nav .bookLogo {
+  width: 73px;
+}
+nav .searchBar {
+  width: 604px;
+  height: 44px;
+  background-color: rgba(88, 124, 131, 0.5764705882);
+  border: 1px #707070 solid;
+  margin: 0 75px;
+}
+nav .searchBar .blueBox {
+  display: flex;
+  align-items: center;
+}
+nav .searchBar img {
+  width: 25;
+  height: 25px;
+  margin: 5px;
+}
+nav .searchBar p {
+  color: #707070;
+  margin: 10px;
+}
+nav .links {
+  width: 500px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+nav .links a {
+  color: #707070;
+  text-decoration: none;
+}
+nav .cartAccount {
+  width: 20%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+nav .cartAccount .account {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav .cartAccount .account img {
+  width: 47px;
+  margin: 10px;
+}
+nav .cartAccount .account p {
+  margin-top: 15px;
+}
+nav .cartAccount .cart {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav .cartAccount .cart img {
+  width: 47px;
+  margin: 10px;
+}
+nav .cartAccount .cart p {
+  margin-top: 15px;
+}
+
+footer {
+  height: 92px;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
