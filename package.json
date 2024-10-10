@@ -8,7 +8,7 @@
   },
   "scripts": {
     "serve": "live-server",
-    "compile": ""
+     "compile": "sass scss/styles.scss css/styles.css -w --no-source-map"
   },
   "keywords": [],
   "author": "",
