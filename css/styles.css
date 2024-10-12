@@ -24,9 +24,10 @@ nav {
   align-items: center;
 }
 nav .logo {
-  width: 15%;
+  width: 20%;
   display: flex;
   justify-content: center;
+  margin-left: 50px;
 }
 nav .logo p {
   margin-top: auto;
@@ -52,7 +53,6 @@ nav .searchBar img {
   margin: 5px;
 }
 nav .searchBar p {
-  color: #707070;
   margin: 10px;
 }
 nav .links {
@@ -62,7 +62,7 @@ nav .links {
   align-items: center;
 }
 nav .links a {
-  color: #707070;
+  color: black;
   text-decoration: none;
 }
 nav .cartAccount {
@@ -101,4 +101,133 @@ footer {
   justify-content: space-between;
   align-items: center;
   display: flex;
+}
+
+.aboutPageHolder {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.aboutPageHolder .founded {
+  width: 85%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
+.aboutPageHolder .founded .aboutImg1 {
+  width: 393px;
+  height: 450px;
+  background-color: chocolate;
+  background-image: url(../assests/about-photo.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-right: 25px;
+}
+.aboutPageHolder .founded .aboutText1 {
+  width: 98%;
+  max-height: 40%;
+  margin-top: -250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 16px;
+}
+.aboutPageHolder .founded .aboutText1 .bigWigText {
+  font-size: 32px;
+}
+.aboutPageHolder .founded .aboutText1 .lilWigText {
+  font-size: 26px;
+  margin: 40px;
+}
+.aboutPageHolder .findingPerfect {
+  width: 85%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+  margin-top: -100px;
+}
+.aboutPageHolder .findingPerfect .aboutImg2 {
+  width: 393px;
+  height: 450px;
+  background-image: url(../assests/about-photo-two.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-right: 25px;
+}
+.aboutPageHolder .findingPerfect .aboutText2 {
+  width: 98%;
+  margin-top: -15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 16px;
+}
+.aboutPageHolder .findingPerfect .aboutText2 .bigWigText {
+  font-size: 32px;
+}
+
+@media only all and (max-width: 910px) {
+  .aboutPageHolder .founded .aboutImg1 {
+    margin-right: 100px;
+    width: 308px;
+    height: 343px;
+  }
+  .aboutPageHolder .founded .aboutText1 {
+    text-align: center;
+    font-size: 11px;
+  }
+  .aboutPageHolder .founded .aboutText1 .bigWigText {
+    font-size: 12px;
+  }
+  .aboutPageHolder .founded .aboutText1 .lilWigText {
+    font-size: 8px;
+  }
+  .aboutPageHolder .findingPerfect .aboutImg2 {
+    margin-right: 100px;
+    width: 308px;
+    height: 343px;
+  }
+  .aboutPageHolder .findingPerfect .aboutText2 {
+    text-align: center;
+    font-size: 11px;
+  }
+  .aboutPageHolder .findingPerfect .aboutText2 .bigWigText {
+    font-size: 12px;
+  }
+}
+@media only all and (max-width: 390px) {
+  .aboutPageHolder .founded .aboutImg1 {
+    margin-right: 100px;
+    width: 71px;
+    height: 132px;
+  }
+  .aboutPageHolder .founded .aboutText1 {
+    text-align: center;
+    font-size: 6px;
+  }
+  .aboutPageHolder .founded .aboutText1 .bigWigText {
+    font-size: 6px;
+  }
+  .aboutPageHolder .founded .aboutText1 .lilWigText {
+    font-size: 6px;
+  }
+  .aboutPageHolder .findingPerfect .aboutImg2 {
+    margin-right: 100px;
+    width: 71px;
+    height: 132px;
+  }
+  .aboutPageHolder .findingPerfect .aboutText2 {
+    text-align: center;
+    font-size: 6px;
+  }
+  .aboutPageHolder .findingPerfect .aboutText2 .bigWigText {
+    font-size: 6px;
+  }
 }
