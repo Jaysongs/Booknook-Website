@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin-bottom: 16px;
+}
+
+nav {
+  height: 100px;
+  border-bottom: solid 1px black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: cadetblue;
+}
+nav img {
+  width: 100px;
+}
+
+footer {
+  height: 92px;
+  justify-content: space-around;
+  align-items: center;
+  display: flex;
+  background-color: #587C83;
+  color: white;
+}
+footer .copy .copy-text span {
+  font-size: 16px;
+}
+footer .footer-nav {
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  height: 92px;
+}
+footer .footer-nav .footer-nav-text {
+  align-items: center;
+  display: flex;
+  height: 92px;
+}
+footer .footer-nav .footer-nav-text a {
+  justify-content: space-between;
+  text-decoration: none;
+  color: white;
+  padding-right: 42px;
+}
+footer .footer-nav .footer-nav-text a div {
+  padding-bottom: 10px;
+}
+footer .logos {
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+footer .logos .fb {
+  height: 44px;
+  width: 44px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(../assests/facebook_w.png);
+  margin-right: 38px;
+}
+footer .logos .insta {
+  height: 44px;
+  width: 44px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(../assests/instagram_w.png);
+}
+footer .logos .twit {
+  height: 44px;
+  width: 44px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(../assests/twitter_w.png);
+  margin-left: 38px;
+}

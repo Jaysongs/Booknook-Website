@@ -1,6 +1,79 @@
 footer{ 
     height: 92px;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     display: flex;
+    background-color: $footer-color;
+    color: white;
+
+    .copy{
+        .copy-text{
+            span{
+                font-size: 16px;
+            }
+        }
+    }
+
+    .footer-nav{
+        justify-content: space-between;
+        align-items: center;
+        display: flex;
+        // background-color: red;
+        height: 92px;
+        // max-width: 300px;
+        .footer-nav-text{
+            
+            align-items: center;
+                display: flex;
+            height: 92px;
+           
+
+            a{
+                justify-content: space-between;
+                text-decoration: none;
+                color: white;
+                padding-right: 42px;
+                div{
+                    padding-bottom: 10px;
+                }
+            }
+        }
+    }
+
+    .logos{
+
+        justify-content: space-between;
+        align-items: center;
+        display: flex;
+        .fb{
+            // background-color: black;
+            height: 44px;
+            width: 44px;
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-image: url(../assests/facebook_w.png);
+            margin-right: 38px;
+        }
+
+        .insta{
+            // background-color: black;
+            height: 44px;
+            width: 44px;
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-image: url(../assests/instagram_w.png);
+        }
+        .twit{
+            // background-color: black;
+            height: 44px;
+            width: 44px;
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-image: url(../assests/twitter_w.png);
+            margin-left: 38px;
+        }
+    }
 }
