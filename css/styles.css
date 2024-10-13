@@ -231,3 +231,182 @@ footer {
     font-size: 6px;
   }
 }
+.blogPageHolder {
+  width: 100%;
+  height: 173vh;
+  display: flex;
+  justify-content: center;
+  padding: 100px;
+}
+.blogPageHolder .blogBlocks {
+  width: 90%;
+  height: 160vh;
+}
+.blogPageHolder .blogBlocks .blogBlockSize1 {
+  width: 100%;
+  height: 40vh;
+  margin-bottom: 100px;
+  background-color: #587C83;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+}
+.blogPageHolder .blogBlocks .blogBlockSize1 .img1 {
+  width: 450px;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.blogPageHolder .blogBlocks .blogBlockSize1 .img1 img {
+  width: 230px;
+  height: 300px;
+  margin: 20px;
+  padding: 20px;
+}
+.blogPageHolder .blogBlocks .blogBlockSize1 .content1 {
+  width: 550px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.blogPageHolder .blogBlocks .blogBlockSize1 .content1 .entitled {
+  color: white;
+  font-size: 32px;
+  text-align: center;
+}
+.blogPageHolder .blogBlocks .blogBlockSize1 .content1 .parap {
+  color: white;
+  text-align: center;
+  width: 380px;
+  margin: 20px;
+}
+.blogPageHolder .blogBlocks .blogBlockSize1 .content1 a {
+  text-decoration: none;
+}
+.blogPageHolder .blogBlocks .blogBlockSize1 .content1 .readMoreBtn {
+  padding-top: 15px;
+  margin-top: 15px;
+  width: 222px;
+  height: 60px;
+  border: 1px white solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.blogPageHolder .blogBlocks .blogBlockSize1 .content1 .readMoreBtn p {
+  color: white;
+}
+.blogPageHolder .blogBlocks .blogBlockSize2 {
+  width: 100%;
+  height: 40vh;
+  margin-bottom: 100px;
+  background-color: #587C83;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.blogPageHolder .blogBlocks .blogBlockSize2 .img2 {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.blogPageHolder .blogBlocks .blogBlockSize2 .img2 img {
+  width: 100%;
+  height: 100%;
+}
+.blogPageHolder .blogBlocks .blogBlockSize2 .content2 {
+  width: 60%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.blogPageHolder .blogBlocks .blogBlockSize2 .content2 .entitled {
+  color: white;
+  font-size: 32px;
+  text-align: center;
+}
+.blogPageHolder .blogBlocks .blogBlockSize2 .content2 .parap {
+  color: white;
+  text-align: center;
+  width: 380px;
+  margin: 20px;
+}
+.blogPageHolder .blogBlocks .blogBlockSize2 .content2 a {
+  text-decoration: none;
+}
+.blogPageHolder .blogBlocks .blogBlockSize2 .content2 .readMoreBtn {
+  padding-top: 15px;
+  margin-top: 15px;
+  width: 222px;
+  height: 60px;
+  border: 1px white solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.blogPageHolder .blogBlocks .blogBlockSize2 .content2 .readMoreBtn p {
+  color: white;
+}
+.blogPageHolder .blogBlocks .blogBlockSize3 {
+  width: 100%;
+  height: 40vh;
+  margin-bottom: 100px;
+  background-color: #587C83;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.blogPageHolder .blogBlocks .blogBlockSize3 .img3 {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.blogPageHolder .blogBlocks .blogBlockSize3 .img3 img {
+  width: 100%;
+  height: 100%;
+}
+.blogPageHolder .blogBlocks .blogBlockSize3 .content3 {
+  width: 60%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.blogPageHolder .blogBlocks .blogBlockSize3 .content3 .entitled {
+  color: white;
+  font-size: 32px;
+  text-align: center;
+}
+.blogPageHolder .blogBlocks .blogBlockSize3 .content3 .parap {
+  color: white;
+  text-align: center;
+  width: 380px;
+  margin: 20px;
+}
+.blogPageHolder .blogBlocks .blogBlockSize3 .content3 a {
+  text-decoration: none;
+}
+.blogPageHolder .blogBlocks .blogBlockSize3 .content3 .readMoreBtn {
+  padding-top: 15px;
+  margin-top: 15px;
+  width: 222px;
+  height: 60px;
+  border: 1px white solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.blogPageHolder .blogBlocks .blogBlockSize3 .content3 .readMoreBtn p {
+  color: white;
+}
