@@ -16,7 +16,7 @@ function initURLListener() {
 
 
 $(document).ready(function () {
-    loadPage("bookclub")
+    loadPage("home")
     initURLListener();
     
 });
