@@ -61,6 +61,10 @@ nav .links a {
   color: black;
   text-decoration: none;
 }
+nav .links a.active {
+  font-weight: bold;
+  color: red;
+}
 nav .cartAccount {
   width: 20%;
   display: flex;
@@ -495,9 +499,8 @@ footer .logos .twit {
 .bookclub-holder {
   display: flex;
   margin-top: 20px;
-  height: 882px;
+  min-height: 640px;
   max-width: 100%;
-  padding-bottom: 287px;
   margin: 228px 100px;
 }
 .bookclub-holder .bookclub-pic {
@@ -514,22 +517,21 @@ footer .logos .twit {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  align-items: center;
+  align-items: flex-start;
+  margin-top: 0;
+  padding-top: 0;
 }
 .bookclub-holder .bookclub-info .p1 {
   font-size: 16px;
 }
 .bookclub-holder .bookclub-info .p2 {
   font-size: 16px;
-  padding-top: 5px;
 }
 .bookclub-holder .bookclub-info .p3 {
   font-size: 16px;
-  padding-top: 5px;
 }
 .bookclub-holder .bookclub-info .p4 {
   font-size: 16px;
-  padding-top: 5px;
 }
 
 @media only all and (max-width: 910px) {
@@ -541,9 +543,6 @@ footer .logos .twit {
     max-width: 260px;
     max-height: 205px;
   }
-  .bookclub-holder .bookclub-info {
-    padding-bottom: 287px;
-  }
 }
 @media only all and (max-width: 390px) {
   .bookclub-hero {
@@ -554,8 +553,92 @@ footer .logos .twit {
     max-width: 114px;
     max-height: 95px;
   }
-  .bookclub-info {
-    padding-bottom: 287px;
+}
+.e-reading-hero {
+  height: 463px;
+  max-width: 1464px;
+  background-color: black;
+  margin: 228px 100px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(rgba(88, 124, 131, 0.6), rgba(88, 124, 131, 0.6)), url(../assets/eread-hero.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.e-reading-hero .e-reading-title h1 {
+  font-weight: bold;
+  color: white;
+  font-size: 32px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.e-reading-hero .e-reading-hero-info p {
+  font-weight: bold;
+  color: white;
+  font-size: 26px;
+  font-weight: bold;
+  padding: 59px;
+}
+
+.e-reading-holder {
+  display: flex;
+  margin-top: 20px;
+  min-height: 640px;
+  max-width: 100%;
+  margin: 228px 100px;
+}
+.e-reading-holder .e-reading-pic {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(../assets/ereading-blog.jpg);
+  height: 463px;
+  width: 622px;
+}
+.e-reading-holder .e-reading-info {
+  padding-left: 39px;
+  width: 898px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  margin-top: 0;
+  padding-top: 0;
+}
+.e-reading-holder .e-reading-info .p1 {
+  font-size: 16px;
+}
+.e-reading-holder .e-reading-info .p2 {
+  font-size: 16px;
+}
+.e-reading-holder .e-reading-info .p3 {
+  font-size: 16px;
+}
+.e-reading-holder .e-reading-info .p4 {
+  font-size: 16px;
+}
+
+@media only all and (max-width: 910px) {
+  .e-reading-hero {
+    max-width: 562px;
+    max-height: 197;
+  }
+  .e-reading-holder .e-reading-pic {
+    max-width: 260px;
+    max-height: 205px;
+  }
+}
+@media only all and (max-width: 390px) {
+  .e-reading-hero {
+    max-width: 308px;
+    max-height: 121;
+  }
+  .e-reading-pic {
+    max-width: 114px;
+    max-height: 95px;
   }
 }
 .febFavs-hero {

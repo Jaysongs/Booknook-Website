@@ -16,7 +16,11 @@ function initURLListener() {
 
 
 $(document).ready(function () {
+<<<<<<< HEAD
     loadPage("febFavs")
+=======
+    loadPage("home")
+>>>>>>> 2dc1dd83d08db4a218282315936260eae7971681
     initURLListener();
     
 });

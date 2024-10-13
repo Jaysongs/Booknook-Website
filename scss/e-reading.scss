@@ -1,4 +1,4 @@
-.bookclub-hero{
+.e-reading-hero{
     height: 463px;
     max-width: 1464px;
     background-color: black;
@@ -7,12 +7,12 @@
     align-items: center;
     display: flex;
     flex-direction: column;
-    background: linear-gradient(rgba(88, 124, 131, 0.6), rgba(88, 124, 131, 0.6)), url(../assets/book-club-hero.jpg);
+    background: linear-gradient(rgba(88, 124, 131, 0.6), rgba(88, 124, 131, 0.6)), url(../assets/eread-hero.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     
-    .bookclub-title{
+    .e-reading-title{
         h1{
             font-weight: bold;
             color: white;
@@ -21,7 +21,7 @@
             text-transform: uppercase;
         }
     }
-    .bookclub-hero-info{
+    .e-reading-hero-info{
         p{
             font-weight: bold;
             color: white;
@@ -34,7 +34,7 @@
     }
 }
 
-.bookclub-holder{
+.e-reading-holder{
     // justify-content: center;
     // align-items: center;
     display: flex;
@@ -44,15 +44,15 @@
     // padding-bottom: 287px;
     margin: 228px 100px; 
     // position: relative;
-    .bookclub-pic{
+    .e-reading-pic{
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-        background-image: url(../assets/open-book-blog.jpg);
+        background-image: url(../assets/ereading-blog.jpg);
         height: 463px;
         width: 622px;
     }
-    .bookclub-info{
+    .e-reading-info{
         padding-left: 39px;
         width: 898px;
         display: flex;
@@ -82,16 +82,16 @@
 }
 
 @media only all and (max-width: 910px){
-    .bookclub-hero{
+    .e-reading-hero{
         max-width: 562px;
         max-height: 197;
         
-        .bookclub-title{
+        .e-reading-title{
             h1{
                
             }
         }
-        .bookclub-hero-info{
+        .e-reading-hero-info{
             p{
                
                
@@ -99,13 +99,13 @@
         }
     }
     
-    .bookclub-holder{
+    .e-reading-holder{
         
-        .bookclub-pic{
+        .e-reading-pic{
             max-width: 260px;
             max-height: 205px;
         }
-        .bookclub-info{
+        .e-reading-info{
         
     
             .p1{
@@ -125,16 +125,16 @@
     
 }
 @media only all and (max-width: 390px){
-    .bookclub-hero{
+    .e-reading-hero{
         max-width: 308px;
         max-height: 121;
         
-        .bookclub-title{
+        .e-reading-title{
             h1{
                
             }
         }
-        .bookclub-hero-info{
+        .e-reading-hero-info{
             p{
                
                
@@ -142,11 +142,11 @@
         }
     }
     
-    .bookclub-pic{
+    .e-reading-pic{
         max-width: 114px;
         max-height: 95px;
     }
-    .bookclub-info{
+    .e-reading-info{
 
         .p1{
             
