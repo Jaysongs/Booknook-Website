@@ -61,10 +61,6 @@ nav .links a {
   color: black;
   text-decoration: none;
 }
-nav .links a.active {
-  font-weight: bold;
-  color: red;
-}
 nav .cartAccount {
   width: 20%;
   display: flex;
@@ -554,92 +550,119 @@ footer .logos .twit {
     max-height: 95px;
   }
 }
-.e-reading-hero {
+.febFavs-hero {
   height: 463px;
   max-width: 1464px;
   background-color: black;
-  margin: 228px 100px;
+  margin: 100px 100px;
   justify-content: center;
   align-items: center;
   display: flex;
   flex-direction: column;
-  background: linear-gradient(rgba(88, 124, 131, 0.6), rgba(88, 124, 131, 0.6)), url(../assets/eread-hero.jpg);
+  background: linear-gradient(rgba(88, 124, 131, 0.6), rgba(88, 124, 131, 0.6)), url(../assets/february-favorites-hero.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
-.e-reading-hero .e-reading-title h1 {
+.febFavs-hero .bookclub-title h1 {
   font-weight: bold;
   color: white;
   font-size: 32px;
   font-weight: bold;
   text-transform: uppercase;
 }
-.e-reading-hero .e-reading-hero-info p {
+.febFavs-hero .bookclub-hero-info p {
   font-weight: bold;
   color: white;
   font-size: 26px;
   font-weight: bold;
   padding: 59px;
 }
-
-.e-reading-holder {
-  display: flex;
-  margin-top: 20px;
-  min-height: 640px;
-  max-width: 100%;
-  margin: 228px 100px;
+.febFavs-hero .quote p {
+  font-weight: bold;
+  color: white;
+  font-size: 26px;
+  font-weight: bold;
 }
-.e-reading-holder .e-reading-pic {
+
+.febFavs-holder {
+  display: flex;
+  height: 482px;
+  max-width: 100%;
+  margin: 20px 150px;
+}
+.febFavs-holder .bookclub-pic {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url(../assets/ereading-blog.jpg);
-  height: 463px;
-  width: 622px;
+  background-image: url(../assets/becoming.jpg);
+  height: 380px;
+  width: 250px;
 }
-.e-reading-holder .e-reading-info {
+.febFavs-holder .bookclub-info {
   padding-left: 39px;
   width: 898px;
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
-  align-items: flex-start;
-  margin-top: 0;
-  padding-top: 0;
 }
-.e-reading-holder .e-reading-info .p1 {
-  font-size: 16px;
+.febFavs-holder .bookclub-info .bookclub-title {
+  padding-bottom: 58px;
 }
-.e-reading-holder .e-reading-info .p2 {
-  font-size: 16px;
+.febFavs-holder .bookclub-info .bookclub-title .pt1 {
+  font-size: 26px;
 }
-.e-reading-holder .e-reading-info .p3 {
+.febFavs-holder .bookclub-info .p1 {
   font-size: 16px;
+  padding-bottom: 25px;
 }
-.e-reading-holder .e-reading-info .p4 {
-  font-size: 16px;
+.febFavs-holder .bookclub-pic2 {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(../assets/finding\ me.jpg);
+  height: 380px;
+  width: 250px;
+  background-color: darkgoldenrod;
 }
 
-@media only all and (max-width: 910px) {
-  .e-reading-hero {
-    max-width: 562px;
-    max-height: 197;
-  }
-  .e-reading-holder .e-reading-pic {
-    max-width: 260px;
-    max-height: 205px;
-  }
+.febFavs-holder2 {
+  display: flex;
+  height: 582px;
+  max-width: 100%;
+  margin: 20px 150px;
 }
-@media only all and (max-width: 390px) {
-  .e-reading-hero {
-    max-width: 308px;
-    max-height: 121;
-  }
-  .e-reading-pic {
-    max-width: 114px;
-    max-height: 95px;
-  }
+.febFavs-holder2 .bookclub-pic {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(../assets/becoming.jpg);
+  height: 380px;
+  width: 250px;
+}
+.febFavs-holder2 .bookclub-info {
+  padding-left: 39px;
+  width: 898px;
+  display: flex;
+  flex-direction: column;
+}
+.febFavs-holder2 .bookclub-info .bookclub-title {
+  padding-bottom: 58px;
+}
+.febFavs-holder2 .bookclub-info .bookclub-title .pt1 {
+  font-size: 26px;
+}
+.febFavs-holder2 .bookclub-info .p1 {
+  font-size: 16px;
+  padding-bottom: 25px;
+}
+.febFavs-holder2 .bookclub-pic2 {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(../assets/finding\ me.jpg);
+  height: 380px;
+  width: 250px;
+  background-color: darkgoldenrod;
 }
 .home-hero {
   height: 530px;

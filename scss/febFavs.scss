@@ -1,0 +1,140 @@
+.febFavs-hero{
+    height: 463px;
+    max-width: 1464px;
+    background-color: black;
+    margin: 100px 100px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(rgba(88, 124, 131, 0.6), rgba(88, 124, 131, 0.6)), url(../assets/february-favorites-hero.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    .bookclub-title{
+        h1{
+            font-weight: bold;
+            color: white;
+            font-size: 32px;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+    }
+    .bookclub-hero-info{
+        p{
+            font-weight: bold;
+            color: white;
+            font-size: 26px;
+            font-weight: bold;
+            // padding-top: 59px;
+            padding: 59px;
+           
+        }
+    }
+    .quote {
+        p{
+            font-weight: bold;
+            color: white;
+            font-size: 26px;
+            font-weight: bold;
+            // padding-top: 59px;
+            // padding: 59px;
+           
+        }
+    }
+}
+
+.febFavs-holder{
+    // justify-content: center;
+    // align-items: center;
+    // background-color: aquamarine;
+    display: flex;
+    height: 482px;
+    max-width: 100%;
+    margin: 20px 150px; 
+    // position: relative;
+    .bookclub-pic{
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url(../assets/becoming.jpg);
+        height: 380px;
+        width: 250px;
+        // background-color: darkgoldenrod;
+    }
+    .bookclub-info{
+        padding-left: 39px;
+        width: 898px;
+        display: flex;
+        flex-direction: column;
+        // background-color: yellow;
+        .bookclub-title {
+            padding-bottom: 58px;
+            .pt1 {
+                font-size: 26px;
+            }
+        }
+        .p1{
+            font-size: 16px;
+            padding-bottom: 25px; 
+        }
+
+    }
+    .bookclub-pic2 {
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url(../assets/finding\ me.jpg);
+        height: 380px;
+        width: 250px;
+        background-color: darkgoldenrod;
+    }
+}
+
+.febFavs-holder2{
+    // justify-content: center;
+    // align-items: center;
+    // background-color: aquamarine;
+    display: flex;
+    height: 582px;
+    max-width: 100%;
+    margin: 20px 150px; 
+    // position: relative;
+    .bookclub-pic{
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url(../assets/becoming.jpg);
+        height: 380px;
+        width: 250px;
+        // background-color: darkgoldenrod;
+    }
+    .bookclub-info{
+        padding-left: 39px;
+        width: 898px;
+        display: flex;
+        flex-direction: column;
+        // background-color: yellow;
+        .bookclub-title {
+            padding-bottom: 58px;
+            .pt1 {
+                font-size: 26px;
+            }
+        }
+        .p1{
+            font-size: 16px;
+            padding-bottom: 25px; 
+        }
+
+    }
+    .bookclub-pic2 {
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url(../assets/finding\ me.jpg);
+        height: 380px;
+        width: 250px;
+        background-color: darkgoldenrod;
+    }
+}
