@@ -2,11 +2,92 @@ nav {
     height: 100px;
     border-bottom: solid 1px black;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
-    background-color: cadetblue;
+    // background-color: cadetblue;
 
-    img {
-        width: 100px;
+    .logo { 
+        // background-color: rgb(158, 48, 48);
+        width: 20%;
+        display: flex;
+        justify-content: center;
+        margin-left: 50px;
+        p {
+            margin-top: auto;
+            padding-left: 15px;
+        }
+
+    }
+    .bookLogo {
+        width: 73px;
+    }
+
+    .searchBar {
+        width: 604px;
+        height: 44px;
+        background-color: #587c8393;
+        border: 1px #707070 solid;
+        margin: 0 75px;
+
+        .blueBox {
+            display: flex;
+            align-items: center;
+        }
+
+
+        img {
+            width: 25;
+            height: 25px;
+            margin: 5px;
+        }
+        p {
+            margin: 10px;
+        }
+    }
+
+    .links {
+        width: 500px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+
+        a {
+            color: black;
+            text-decoration: none;
+        }
+        
+    }
+
+    .cartAccount {
+        width: 20%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+
+        .account {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            img {
+                width: 47px;
+                margin: 10px;
+            }
+            p {
+                margin-top: 15px;
+            }
+        }
+
+        .cart {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            img {
+                width: 47px;
+                margin: 10px;
+            }
+            p {
+                margin-top: 15px;
+            }
+        }
     }
 }
