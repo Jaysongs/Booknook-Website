@@ -15,18 +15,20 @@ var books = [
     
     {
         id: 1,
-        name: "Harry Potter",
-        price: ".99",
+        name: "To kill a Mocking Bird",
+        price: "15.99",
+        imageUrl: 'assets/to-kill-a-mockingbird.png'
     },
     {
         id: 2,
-        name: "Mockingjay",
-        price: "10.99",
+        name: "Becoming Michelle Obama",
+        price: "25.99",
+
     },
     {
         id: 3,
-        name: "Html",
-        price: "9.99",
+        name: "Fire Starter",
+        price: "19.99",
     },
     {
         id: 4,

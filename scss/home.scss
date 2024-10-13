@@ -1,0 +1,64 @@
+.home-hero{
+    height: 530px;
+    max-width: 1500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    margin: 100px;
+    background: linear-gradient(rgba(88, 124, 131, 0.6), rgba(88, 124, 131, 0.6)), url(../assets/home-hero.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+    .home-text{
+        position: absolute;
+
+        top: -2;
+        right: 0;
+        padding-right: 100px;
+        .home-header{
+            color: white;
+            font-size: 32px;
+        }
+        .home-info{
+            color: white;
+            font-size: 16px;
+        }
+    }
+}
+
+#home-holder{
+    min-height: 900px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    #feature-holder{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 800px;
+        width: 350px;
+        background-color: gray;
+        .book{
+            width: 306px;
+            height: 491px;
+            background-color: blue;
+        }
+        .book-info{
+            font-size: 16px;
+        }
+        .price{
+            font-weight: bold;
+            font-size: 32px;
+        }
+        .add{
+            height: 48px;
+            width: 222px;
+            background-color: yellow;
+        }
+    }
+}
