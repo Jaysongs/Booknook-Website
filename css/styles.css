@@ -840,3 +840,155 @@ footer .logos .twit {
   border-bottom: black solid 1px;
   padding: 100px 50px 50px 75px;
 }
+
+.login-signup-holder {
+  width: 100vh;
+  height: 100vh;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  display: flex;
+  padding: 100px;
+}
+.login-signup-holder .login-holder {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.login-signup-holder .login-holder .login-tit {
+  margin-bottom: 44px;
+  font-size: 26px;
+  padding-right: 110px;
+}
+.login-signup-holder .login-holder .e {
+  width: 233px;
+  margin-bottom: 44px;
+  border-bottom: solid 1px black;
+}
+.login-signup-holder .login-holder .e input {
+  font-size: 16px;
+  border: none;
+  background: transparent;
+  outline: none;
+}
+.login-signup-holder .login-holder .e input::placeholder {
+  color: black;
+}
+.login-signup-holder .login-holder .p {
+  width: 233px;
+  border-bottom: solid 1px black;
+  margin-bottom: 44px;
+}
+.login-signup-holder .login-holder .p input {
+  font-size: 16px;
+  border: none;
+  background: transparent;
+  outline: none;
+}
+.login-signup-holder .login-holder .p input::placeholder {
+  color: black;
+}
+.login-signup-holder .login-holder .loginBtn {
+  width: 170px;
+  height: 45px;
+  background-color: #587C83;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.login-signup-holder .login-holder .loginBtn span {
+  color: white;
+}
+.login-signup-holder .login-holder .loginBtn a {
+  text-decoration: none;
+}
+.login-signup-holder .signup-holder {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.login-signup-holder .signup-holder .dont {
+  font-size: 16px;
+  padding-right: 90px;
+}
+.login-signup-holder .signup-holder .login-tit {
+  margin-bottom: 44px;
+  font-size: 26px;
+  padding-right: 140px;
+}
+.login-signup-holder .signup-holder .fn {
+  width: 233px;
+  margin-bottom: 44px;
+  border-bottom: solid 1px black;
+}
+.login-signup-holder .signup-holder .fn input {
+  font-size: 16px;
+  border: none;
+  background: transparent;
+  outline: none;
+}
+.login-signup-holder .signup-holder .fn input::placeholder {
+  color: black;
+}
+.login-signup-holder .signup-holder .ln {
+  width: 233px;
+  margin-bottom: 44px;
+  border-bottom: solid 1px black;
+}
+.login-signup-holder .signup-holder .ln input {
+  font-size: 16px;
+  border: none;
+  background: transparent;
+  outline: none;
+}
+.login-signup-holder .signup-holder .ln input::placeholder {
+  color: black;
+}
+.login-signup-holder .signup-holder .e {
+  width: 233px;
+  margin-bottom: 44px;
+  border-bottom: solid 1px black;
+}
+.login-signup-holder .signup-holder .e input {
+  font-size: 16px;
+  border: none;
+  background: transparent;
+  outline: none;
+}
+.login-signup-holder .signup-holder .e input::placeholder {
+  color: black;
+}
+.login-signup-holder .signup-holder .p {
+  width: 233px;
+  margin-bottom: 44px;
+  border-bottom: solid 1px black;
+}
+.login-signup-holder .signup-holder .p input {
+  font-size: 16px;
+  border: none;
+  background: transparent;
+  outline: none;
+}
+.login-signup-holder .signup-holder .p input::placeholder {
+  color: black;
+}
+.login-signup-holder .signup-holder .signupBtn {
+  width: 170px;
+  height: 45px;
+  background-color: #587C83;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.login-signup-holder .signup-holder .signupBtn span {
+  color: white;
+}
+.login-signup-holder .signup-holder .signupBtn a {
+  text-decoration: none;
+}

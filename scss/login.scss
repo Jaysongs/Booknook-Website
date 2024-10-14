@@ -1,0 +1,169 @@
+.login-signup-holder{
+    width: 100vh;
+    height: 100vh;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    display: flex;
+    padding: 100px;
+    .login-holder{
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        
+        .login-tit{
+            margin-bottom: 44px;
+            font-size: 26px;
+            padding-right: 110px;
+            
+        }
+        .e{
+            width: 233px;
+            margin-bottom: 44px;
+            border-bottom: solid 1px black;
+            input{
+                font-size: 16px;
+                border: none;
+                background: transparent;
+                outline: none;
+            }
+            input::placeholder {
+                color: black; 
+                
+            }
+        }
+        .p{
+            width: 233px;
+            border-bottom: solid 1px black;
+            margin-bottom: 44px;
+            
+            input{
+                font-size: 16px;
+                border: none;
+                background: transparent;
+                outline: none;
+
+            }
+            input::placeholder {
+                color: black; 
+                
+            }
+        }
+
+        .loginBtn{
+            width: 170px; 
+            height: 45px; 
+            background-color: #587C83; 
+            display: flex; 
+            justify-content: center; 
+            align-items: center; 
+            cursor: pointer;
+            span{
+                color: white;
+            }
+            a{
+                text-decoration: none;
+            }
+        
+        }
+    }
+
+    .signup-holder{
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        .dont{
+            font-size: 16px;
+            padding-right: 90px;
+        }
+
+        .login-tit{
+            margin-bottom: 44px;
+            font-size: 26px;
+            padding-right: 140px;
+            
+        }
+
+        .fn{
+            width: 233px;
+            margin-bottom: 44px;
+            border-bottom: solid 1px black;
+            input{
+                font-size: 16px;
+                border: none;
+                background: transparent;
+                outline: none;
+            }
+            input::placeholder {
+                color: black; 
+                
+            }
+        }
+        .ln{
+            width: 233px;
+            margin-bottom: 44px;
+            border-bottom: solid 1px black;
+            input{
+                font-size: 16px;
+                border: none;
+                background: transparent;
+                outline: none;
+            }
+            input::placeholder {
+                color: black; 
+                
+            }
+        }
+        .e{
+            width: 233px;
+            margin-bottom: 44px;
+            border-bottom: solid 1px black;
+            input{
+                font-size: 16px;
+                border: none;
+                background: transparent;
+                outline: none;
+            }
+            input::placeholder {
+                color: black; 
+                
+            }
+        }
+        .p{
+            width: 233px;
+            margin-bottom: 44px;
+            border-bottom: solid 1px black;
+            input{
+                font-size: 16px;
+                border: none;
+                background: transparent;
+                outline: none;
+            }
+            input::placeholder {
+                color: black; 
+                
+            }
+        }
+        .signupBtn{
+            width: 170px; 
+            height: 45px; 
+            background-color: #587C83; 
+            display: flex; 
+            justify-content: center; 
+            align-items: center; 
+            cursor: pointer;
+            span{
+                color: white;
+            }
+            a{
+                text-decoration: none;
+            }
+        
+        }
+
+    }
+}
