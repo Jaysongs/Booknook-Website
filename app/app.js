@@ -22,21 +22,16 @@ $(document).ready(function () {
     $(document).on("click", ".loginBtn a, .signupBtn a", function (e) {
         e.preventDefault(); 
         var url = $(this).attr("href").replace("#", ""); 
-
+    
         console.log("Clicked button, url: ", url); 
-
+    
         if (url === "home") {
             if ($(this).closest(".loginBtn").length) {
                 signIn();
             } else if ($(this).closest(".signupBtn").length) {
                 signUp();
-        if (url === "home") {
-            if ($(this).closest(".loginBtn").length) {
-                signIn();
-            } else if ($(this).closest(".signupBtn").length) {
-                signUp();
-            }
-        }
+            } 
+        } 
     });
     
     $(document).on("click", ".account", function (e) {

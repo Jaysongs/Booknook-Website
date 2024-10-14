@@ -46,7 +46,7 @@ export const signUp = () => {
     }
 };
 
-
+export const getSignedInStatus = () => signedIn;
 
 // var books = [
     
