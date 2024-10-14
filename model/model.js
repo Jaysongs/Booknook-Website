@@ -43,6 +43,11 @@ export const signUp = () => {
     if (!firstName || !lastName || !email || !password) {
         alert("Please complete all sign-up fields!");
         return false;
+    } else {
+        signedIn = true;
+        alert("You are logged in!");
+        window.location.href = "#home"; 
+        return true
     }
 };
 
