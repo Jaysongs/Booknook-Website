@@ -16,11 +16,10 @@ function initURLListener() {
 
 
 $(document).ready(function () {
-    // loadPage("febFavs")
-    loadPage("home", () => {
-        console.log("Home page loaded"); 
-        loadFeaturedBooks(); 
-    });
+<<<<<<< HEAD
+    loadPage("febFavs")
+=======
+    loadPage("home")
     initURLListener();
     
     

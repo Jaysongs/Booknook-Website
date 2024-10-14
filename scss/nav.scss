@@ -67,6 +67,9 @@ nav {
         display: flex;
         justify-content: space-evenly;
         align-items: center;
+        a {
+            text-decoration: none;
+        }
 
         .account {
             display: flex;
@@ -78,6 +81,8 @@ nav {
             }
             p {
                 margin-top: 15px;
+                color: black;
+
             }
         }
 
@@ -91,6 +96,7 @@ nav {
             }
             p {
                 margin-top: 15px;
+                color: black;
             }
         }
     }
