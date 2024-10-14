@@ -30,6 +30,11 @@ $(document).ready(function () {
                 signIn();
             } else if ($(this).closest(".signupBtn").length) {
                 signUp();
+        if (url === "home") {
+            if ($(this).closest(".loginBtn").length) {
+                signIn();
+            } else if ($(this).closest(".signupBtn").length) {
+                signUp();
             }
         }
     });

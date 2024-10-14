@@ -14,23 +14,16 @@ export const loadPage = (pageID) => {
 }
 
 
-let signedIn = false;
+let signedIn = false; 
 
 
 export const signIn = () => {
     const email = $("#emailInputLogin").val();
     const password = $("#passwordInputLogin").val();
 
-    
-    if (!email || !password) {
-        alert("Please enter both email and password.");
-        return false;
-    }
-
-    if (email  && password) {
-        console.log("signIn function called");
+    if (email && password) {
+        signedIn = true;
         alert("You are logged in!");
-        signedIn = true;  
         window.location.href = "#home"; 
         return true;
     } else {
@@ -51,17 +44,8 @@ export const signUp = () => {
         alert("Please complete all sign-up fields!");
         return false;
     }
+};
 
-
-   
-    console.log("User registered:", { firstName, lastName, email, password });
-    alert(`Thank you for signing up, ${firstName} ${lastName}!`);
-    signedIn = true;  
-    window.location.href = "#home"; 
-    return true;
-}
-
-export const getSignedInStatus = () => signedIn; 
 
 
 // var books = [
