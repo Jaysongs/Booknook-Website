@@ -2,7 +2,10 @@ export const loadPage = (pageID) => {
     if (pageID == '') {
         $.get(`pages/${pageID}.html`, (data) =>{
             $('#app').html(data);
-        } )
+            console.log($('#app').html());
+        } ) 
+
+
     } else { 
         $.get(`pages/${pageID}.html`, (data) =>{
             $('#app').html(data);

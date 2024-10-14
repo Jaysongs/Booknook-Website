@@ -2,7 +2,7 @@ import {loadPage, getBooks} from "../model/model.js";
 
 const changeRoute = () => {
     let hashTag = window.location.hash;
-    let pageID = hashTag.replace('#', '');
+    let pageID = hashTag.replace('#', '') || 'home';
 
     loadPage(pageID);
 
@@ -16,10 +16,11 @@ function initURLListener() {
 
 
 $(document).ready(function () {
-<<<<<<< HEAD
-    loadPage("febFavs")
-=======
-    loadPage("home")
+    // loadPage("febFavs")
+    loadPage("home", () => {
+        console.log("Home page loaded"); 
+        loadFeaturedBooks(); 
+    });
     initURLListener();
     
     
