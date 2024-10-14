@@ -100,6 +100,14 @@ nav .cartAccount .cart p {
   margin-top: 15px;
   color: black;
 }
+nav .cartAccount .cart a {
+  position: relative;
+}
+nav .cartAccount .cart .count {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+}
 
 footer {
   height: 92px;

@@ -16,25 +16,35 @@ function initURLListener() {
 }
 
 $(document).ready(function () {
-    console.log("Document is ready"); 
-    
-    $(".loginBtn a, .signupBtn a").on("click", function (e) {
+    console.log("Document is ready");
+
+    // Use event delegation to handle clicks
+    $(document).on("click", ".loginBtn a, .signupBtn a", function (e) {
         e.preventDefault(); 
         var url = $(this).attr("href").replace("#", ""); 
 
         console.log("Clicked button, url: ", url); 
 
-        if (url == "home") {
-            if ($(this).parent().hasClass("loginBtn")) {
-                alert("About to call signIn");
-            } else if ($(this).parent().hasClass("signupBtn")) {
-                alert("About to call signIn");
+        if (url === "home") {
+            if ($(this).closest(".loginBtn").length) {
+                signIn();
+            } else if ($(this).closest(".signupBtn").length) {
+                signUp();
             }
         }
     });
+    $(document).on("click", ".account", function (e) {
+        e.preventDefault(); 
+        if (signedIn) {
+            alert(`${userName} is logged in! Thank you for checking out our books.`);
+            console.log(signedIn)
+        } else {
+            window.location.href = "#login"; 
+        }
+    });
+
     loadPage("home");
     initURLListener();
-   
 });
 
 
