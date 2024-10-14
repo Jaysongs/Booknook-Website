@@ -7,9 +7,11 @@ To use our website you must run the commands
 
 
 # Jayden
-#Setup Github and initialize repository, navigation, page 1, 2, 3, 4, 6, read me
+#Setup Github and initialize repository, navigation, page 1, 2, 3, 4, 6, read me, upload to cyberduck
 # Joseph
 #Setup folder structure, footer, fonts, media queries, page 7, 8, half of 1, login page + login logic, and cart 
 
 
 
+# link to project
+#https://in-info-web4.luddy.indianapolis.iu.edu/~jlwyly/Booknook-Website/
