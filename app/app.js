@@ -1,4 +1,4 @@
-import { loadPage, signIn, signUp } from "../model/model.js";
+import { loadPage, signIn, signUp, addItemToCart } from "../model/model.js";
 
 let signedIn = false; // Ensure signedIn is initialized and accessible
 
@@ -13,6 +13,14 @@ function initURLListener() {
     console.log("Initializing URL listener");  
     $(window).on('hashchange', changeRoute);
     changeRoute();
+
+
+    $(".product span").on("click", function (e) {
+        e.preventDefault();
+        var btnId = e.currentTarget.id;
+        console.log(btnId);
+        addItemToCart();
+    });
 }
 
 $(document).ready(function () {

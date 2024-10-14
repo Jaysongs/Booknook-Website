@@ -12,6 +12,15 @@ export const loadPage = (pageID) => {
         })
     }
 }
+var cartCount = 0
+var cartItems = [];
+var item = {
+    id: 1,
+    pic: "test",
+    text: "testy",
+    price: "",
+    btn: "",
+};
 
 
 let signedIn = false; 
@@ -60,6 +69,13 @@ export const signUp = () => {
     window.location.href = "#home"; 
     return true;
 }
+
+
+export function addItemToCart() {
+    $(".cartAccount .cart span").html(++cartCount);
+}
+
+
 
 // export const isSignedIn = () => signedIn;
 // export const getUserName = () => name;
