@@ -15,10 +15,9 @@ nav {
     .logo { 
 
         // background-color: rgb(158, 48, 48);
-        width: 100%;
+        width: 300px;
         display: flex;
         justify-content: center;
-        margin-left: 25px;
         p {
             margin-top: auto;
             padding-left: 15px;
@@ -79,6 +78,7 @@ nav {
         }
 
         .account {
+            // background-color: chartreuse;
             display: flex;
             justify-content: space-between;
             align-items: center;
@@ -94,6 +94,7 @@ nav {
         }
 
         .cart {
+            // background-color: brown;
             display: flex;
             justify-content: space-between;
             align-items: center;

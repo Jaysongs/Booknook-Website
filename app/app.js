@@ -62,7 +62,7 @@ $(document).ready(function () {
         const signedIn = getSignedInStatus();
         if (signedIn) {
             alert("Since you are signed in, you can access your cart!")
-            window.location.href = "#cart"; 
+            window.location.href = "#the-cart"; 
         } else {
             window.location.href = "#login"; 
         }
