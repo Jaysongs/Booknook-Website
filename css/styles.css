@@ -100,6 +100,14 @@ nav .cartAccount .cart p {
   margin-top: 15px;
   color: black;
 }
+nav .cartAccount .cart a {
+  position: relative;
+}
+nav .cartAccount .cart .count {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+}
 
 footer {
   height: 92px;
@@ -834,11 +842,91 @@ footer .logos .twit {
   border-bottom: black solid 1px;
   padding: 100px 50px 50px 75px;
 }
+.cartHolder .topBook .topBook-holder {
+  width: 434px;
+  height: 317px;
+  display: flex;
+}
+.cartHolder .topBook .topBook-holder .image {
+  height: 317px;
+  width: 205px;
+  background-color: black;
+  background-image: url(../assets/misery.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.cartHolder .topBook .topBook-holder .cart-book-info {
+  margin-left: 20px;
+  width: 185px;
+  display: flex;
+  flex-direction: column;
+}
+.cartHolder .topBook .topBook-holder .cart-book-info .title {
+  padding-top: 5px;
+  font-weight: bold;
+}
+.cartHolder .topBook .topBook-holder .cart-book-info .price {
+  font-weight: bold;
+  padding-top: 20px;
+}
+.cartHolder .topBook .topBook-holder .cart-book-info .stock {
+  padding-top: 5px;
+}
+.cartHolder .topBook .topBook-holder .cart-book-info .qty {
+  padding-top: 35px;
+}
+.cartHolder .topBook .topBook-holder .cart-book-info .qty .change {
+  text-decoration: underline;
+}
+.cartHolder .topBook .topBook-holder .cart-book-info .qty .del {
+  text-decoration: underline;
+}
 .cartHolder .bottomBook {
   width: 100%;
   height: 50vh;
   border-bottom: black solid 1px;
   padding: 100px 50px 50px 75px;
+}
+.cartHolder .bottomBook .bottom-holder {
+  min-width: 434px;
+  height: 317px;
+  display: flex;
+}
+.cartHolder .bottomBook .bottom-holder .image {
+  height: 317px;
+  width: 205px;
+  background-color: black;
+  background-image: url(../assets/mlk-biography.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.cartHolder .bottomBook .bottom-holder .cart-book-info {
+  margin-left: 20px;
+  min-width: 185px;
+  display: flex;
+  flex-direction: column;
+}
+.cartHolder .bottomBook .bottom-holder .cart-book-info .title {
+  padding-top: 5px;
+  font-weight: bold;
+}
+.cartHolder .bottomBook .bottom-holder .cart-book-info .price {
+  font-weight: bold;
+  padding-top: 20px;
+}
+.cartHolder .bottomBook .bottom-holder .cart-book-info .stock {
+  padding-top: 5px;
+}
+.cartHolder .bottomBook .bottom-holder .cart-book-info .qty {
+  padding-top: 35px;
+}
+.cartHolder .bottomBook .bottom-holder .cart-book-info .qty .change {
+  text-decoration: underline;
+}
+.cartHolder .bottomBook .bottom-holder .cart-book-info .qty .del {
+  text-decoration: underline;
 }
 
 .login-signup-holder {
