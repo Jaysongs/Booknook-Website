@@ -1,6 +1,7 @@
+import { loadPage, signIn, signUp, getSignedInStatus} from "../model/model.js";
 import { loadPage, signIn, signUp, addItemToCart } from "../model/model.js";
 
-let signedIn = false; // Ensure signedIn is initialized and accessible
+let signedIn = false; 
 
 const changeRoute = () => {
     let hashTag = window.location.hash;
@@ -26,26 +27,43 @@ function initURLListener() {
 $(document).ready(function () {
     console.log("Document is ready");
 
-    // Use event delegation to handle clicks
+
     $(document).on("click", ".loginBtn a, .signupBtn a", function (e) {
         e.preventDefault(); 
         var url = $(this).attr("href").replace("#", ""); 
-
+    
         console.log("Clicked button, url: ", url); 
-
+    
         if (url === "home") {
             if ($(this).closest(".loginBtn").length) {
                 signIn();
             } else if ($(this).closest(".signupBtn").length) {
                 signUp();
-            }
-        }
+            } 
+        } 
     });
+    
     $(document).on("click", ".account", function (e) {
         e.preventDefault(); 
+
+        const signedIn = getSignedInStatus();
         if (signedIn) {
-            alert(`${userName} is logged in! Thank you for checking out our books.`);
             console.log(signedIn)
+            console.log("Account link clicked. signedIn status:", signedIn);
+            alert(`You are logged in! Thank you for checking out our books.`);
+            console.log(signedIn)
+        } else {
+            window.location.href = "#login"; 
+        }
+    });
+
+    $(document).on("click", ".cart", function (e) {
+        e.preventDefault(); 
+
+        const signedIn = getSignedInStatus();
+        if (signedIn) {
+            alert("Since you are signed in, you can access your cart!")
+            window.location.href = "#cart"; 
         } else {
             window.location.href = "#login"; 
         }

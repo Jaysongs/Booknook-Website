@@ -24,22 +24,15 @@ var item = {
 
 
 let signedIn = false; 
-let name = ''
+
 
 export const signIn = () => {
     const email = $("#emailInputLogin").val();
     const password = $("#passwordInputLogin").val();
 
-    // Basic input validation
-    if (!email || !password) {
-        alert("Please enter both email and password.");
-        return false;
-    }
-
-    if (email  && password) {
-        console.log("signIn function called");
+    if (email && password) {
+        signedIn = true;
         alert("You are logged in!");
-        signedIn = true;  // Update the signedIn status
         window.location.href = "#home"; 
         return true;
     } else {
@@ -59,26 +52,15 @@ export const signUp = () => {
     if (!firstName || !lastName || !email || !password) {
         alert("Please complete all sign-up fields!");
         return false;
+    } else {
+        signedIn = true;
+        alert("You are logged in!");
+        window.location.href = "#home"; 
+        return true
     }
+};
 
-
-   
-    console.log("User registered:", { firstName, lastName, email, password });
-    alert(`Thank you for signing up, ${firstName} ${lastName}!`);
-    signedIn = true;  
-    window.location.href = "#home"; 
-    return true;
-}
-
-
-export function addItemToCart() {
-    $(".cartAccount .cart span").html(++cartCount);
-}
-
-
-
-// export const isSignedIn = () => signedIn;
-// export const getUserName = () => name;
+export const getSignedInStatus = () => signedIn;
 
 // var books = [
     

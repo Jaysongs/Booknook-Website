@@ -1,11 +1,12 @@
 .login-signup-holder{
-    width: 100vh;
+    max-width: 100vh;
     height: 100vh;
     justify-content: space-between;
     align-items: center;
     margin: 0 auto;
     display: flex;
     padding: 100px;
+    font-family: 'Segoe UI';
     .login-holder{
         justify-content: center;
         align-items: center;
@@ -165,5 +166,229 @@
         
         }
 
+    }
+}
+
+@media only all and (max-width: 910px){
+    .login-signup-holder{
+        display: flex;
+        flex-direction: column;
+        .login-holder{
+          
+            
+            .login-tit{
+                padding-top: 20px;
+            }
+            .e{
+                padding-top: 20px;
+                input{
+                    
+                }
+                input::placeholder {
+                    
+                    
+                }
+            }
+            .p{
+                padding-top: 20px;
+                
+                input{
+                    
+    
+                }
+                input::placeholder {
+                   
+                    
+                }
+            }
+    
+            .loginBtn{
+                margin-top: 20px;
+             
+                span{
+                   
+                }
+                a{
+                    
+                }
+            
+            }
+        }
+    
+        .signup-holder{
+            padding-top: 20px;
+            .dont{
+                
+            }
+    
+            .login-tit{
+             
+                
+            }
+    
+            .fn{
+                padding-top: 20px;
+                input{
+                   
+                }
+                input::placeholder {
+                  
+                    
+                }
+            }
+            .ln{
+                padding-top: 20px;
+                input{
+                  
+                }
+                input::placeholder {
+                   
+                    
+                }
+            }
+            .e{
+                padding-top: 20px;
+                input{
+                    
+                }
+                input::placeholder {
+                    
+                    
+                }
+            }
+            .p{
+                padding-top: 20px;
+                input{
+                    
+                }
+                input::placeholder {
+                   
+                    
+                }
+            }
+            .signupBtn{
+                margin-top: 20px;
+                span{
+                    
+                }
+                a{
+                   
+                }
+            
+            }
+    
+        }
+    }
+}
+
+@media only all and (max-width: 380px){
+    .login-signup-holder{
+        display: flex;
+        flex-direction: column;
+        .login-holder{
+          
+           
+            .login-tit{
+                padding-top: 20px;
+            }
+            .e{
+                margin-top: 20px;
+                input{
+                    
+                }
+                input::placeholder {
+                    
+                    
+                }
+            }
+            .p{
+                padding-top: 20px;
+                
+                input{
+                    
+    
+                }
+                input::placeholder {
+                   
+                    
+                }
+            }
+    
+            .loginBtn{
+                margin-top: 20px;
+             
+                span{
+                   
+                }
+                a{
+                    
+                }
+            
+            }
+        }
+    
+        .signup-holder{
+            padding-top: 20px;
+            .dont{
+                
+            }
+    
+            .login-tit{
+             
+                
+            }
+    
+            .fn{
+                padding-top: 20px;
+                input{
+                   
+                }
+                input::placeholder {
+                  
+                    
+                }
+            }
+            .ln{
+                padding-top: 20px;
+                input{
+                  
+                }
+                input::placeholder {
+                   
+                    
+                }
+            }
+            .e{
+                padding-top: 20px;
+                input{
+                    
+                }
+                input::placeholder {
+                    
+                    
+                }
+            }
+            .p{
+                padding-top: 20px;
+                input{
+                    
+                }
+                input::placeholder {
+                   
+                    
+                }
+            }
+            .signupBtn{
+                margin-top: 20px;
+                span{
+                    
+                }
+                a{
+                   
+                }
+            
+            }
+    
+        }
     }
 }

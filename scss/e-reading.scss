@@ -11,6 +11,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    font-family: 'Segoe UI';
     
     .e-reading-title{
         h1{
@@ -43,6 +44,7 @@
     max-width: 100%;
     // padding-bottom: 287px;
     margin: 228px 100px; 
+    font-family: 'Segoe UI';
     // position: relative;
     .e-reading-pic{
         background-position: center;
@@ -61,6 +63,7 @@
         align-items: flex-start;
         margin-top: 0; 
         padding-top: 0;
+        font-family: 'Segoe UI';
     
 
         .p1{
@@ -68,15 +71,15 @@
         }
         .p2{
             font-size: 16px;
-            // padding-top: 5px;
+            padding-top: 10px;
         }
         .p3{
             font-size: 16px;
-            // padding-top: 5px;
+            padding-top: 10px;
         }
         .p4{
             font-size: 16px;
-            // padding-top: 5px;
+            padding-top: 10px;
         }
     }
 }

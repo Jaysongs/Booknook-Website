@@ -12,12 +12,85 @@ h1, h2, h3, h4, h5, h6, p {
   margin-bottom: 16px;
 }
 
+@font-face {
+  font-family: "segoeui";
+  src: url("../assets/segoeui.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "segoeuib";
+  src: url("../assets/segoeuib.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "segoeuii";
+  src: url("../assets/segoeuii.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "segoeuil";
+  src: url("../assets/segoeuil.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "segoeuisl";
+  src: url("../assets/segoeuisl.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "segoeuiz";
+  src: url("../assets/segoeuiz.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "seguibl";
+  src: url("../assets/seguibl.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "seguibli";
+  src: url("../assets/seguibli.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "seguili";
+  src: url("../assets/seguili.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "seguisb";
+  src: url("../assets/seguisb.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "seguisbi";
+  src: url("../assets/seguisbi.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "seguisli";
+  src: url("../assets/seguisli.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
 nav {
   height: 100px;
   border-bottom: solid 1px black;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  font-family: "Segoe UI";
 }
 nav a {
   text-decoration: none;
@@ -120,6 +193,7 @@ footer {
   display: flex;
   background-color: #587C83;
   color: white;
+  font-family: "Segoe UI";
 }
 footer .copy .copy-text span {
   font-size: 16px;
@@ -182,6 +256,7 @@ footer .logos .twit {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  font-family: "Segoe UI";
 }
 .aboutPageHolder .founded {
   width: 85%;
@@ -310,9 +385,10 @@ footer .logos .twit {
   display: flex;
   justify-content: center;
   padding: 100px;
+  font-family: "Segoe UI";
 }
 .blogPageHolder .blogBlocks {
-  width: 90%;
+  max-width: 90%;
   height: 160vh;
 }
 .blogPageHolder .blogBlocks .blogBlockSize1 {
@@ -326,11 +402,12 @@ footer .logos .twit {
   padding: 40px;
 }
 .blogPageHolder .blogBlocks .blogBlockSize1 .img1 {
-  width: 450px;
+  max-width: 450px;
   height: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin: 20px;
 }
 .blogPageHolder .blogBlocks .blogBlockSize1 .img1 img {
   width: 230px;
@@ -345,6 +422,7 @@ footer .logos .twit {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  margin: 20px;
 }
 .blogPageHolder .blogBlocks .blogBlockSize1 .content1 .entitled {
   color: white;
@@ -374,7 +452,7 @@ footer .logos .twit {
   color: white;
 }
 .blogPageHolder .blogBlocks .blogBlockSize2 {
-  width: 100%;
+  max-width: 100%;
   height: 40vh;
   margin-bottom: 100px;
   background-color: #587C83;
@@ -383,18 +461,19 @@ footer .logos .twit {
   align-items: center;
 }
 .blogPageHolder .blogBlocks .blogBlockSize2 .img2 {
-  width: 40%;
+  max-width: 40%;
   height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-right: 20px;
 }
 .blogPageHolder .blogBlocks .blogBlockSize2 .img2 img {
   width: 100%;
   height: 100%;
 }
 .blogPageHolder .blogBlocks .blogBlockSize2 .content2 {
-  width: 60%;
+  min-width: 60%;
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -497,6 +576,7 @@ footer .logos .twit {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  font-family: "Segoe UI";
 }
 .bookclub-hero .bookclub-title h1 {
   font-weight: bold;
@@ -519,6 +599,7 @@ footer .logos .twit {
   min-height: 640px;
   max-width: 100%;
   margin: 228px 100px;
+  font-family: "Segoe UI";
 }
 .bookclub-holder .bookclub-pic {
   background-position: center;
@@ -543,12 +624,15 @@ footer .logos .twit {
 }
 .bookclub-holder .bookclub-info .p2 {
   font-size: 16px;
+  padding-top: 10px;
 }
 .bookclub-holder .bookclub-info .p3 {
   font-size: 16px;
+  padding-top: 10px;
 }
 .bookclub-holder .bookclub-info .p4 {
   font-size: 16px;
+  padding-top: 10px;
 }
 
 @media only all and (max-width: 910px) {
@@ -584,6 +668,7 @@ footer .logos .twit {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  font-family: "Segoe UI";
 }
 .febFavs-hero .bookclub-title h1 {
   font-weight: bold;
@@ -611,6 +696,7 @@ footer .logos .twit {
   height: 482px;
   max-width: 100%;
   margin: 20px 150px;
+  font-family: "Segoe UI";
 }
 .febFavs-holder .bookclub-pic {
   background-position: center;
@@ -647,6 +733,7 @@ footer .logos .twit {
 }
 
 .febFavs-holder2 {
+  font-family: "Segoe UI";
   display: flex;
   height: 582px;
   max-width: 100%;
@@ -699,6 +786,7 @@ footer .logos .twit {
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+  font-family: "Segoe UI";
 }
 .home-hero .home-text {
   position: absolute;
@@ -709,6 +797,7 @@ footer .logos .twit {
 .home-hero .home-text .home-header {
   color: white;
   font-size: 32px;
+  font-weight: bold;
 }
 .home-hero .home-text .home-info {
   color: white;
@@ -806,6 +895,7 @@ footer .logos .twit {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  font-family: "Segoe UI";
 }
 .e-reading-hero .e-reading-title h1 {
   font-weight: bold;
@@ -828,6 +918,7 @@ footer .logos .twit {
   min-height: 640px;
   max-width: 100%;
   margin: 228px 100px;
+  font-family: "Segoe UI";
 }
 .e-reading-holder .e-reading-pic {
   background-position: center;
@@ -846,18 +937,22 @@ footer .logos .twit {
   align-items: flex-start;
   margin-top: 0;
   padding-top: 0;
+  font-family: "Segoe UI";
 }
 .e-reading-holder .e-reading-info .p1 {
   font-size: 16px;
 }
 .e-reading-holder .e-reading-info .p2 {
   font-size: 16px;
+  padding-top: 10px;
 }
 .e-reading-holder .e-reading-info .p3 {
   font-size: 16px;
+  padding-top: 10px;
 }
 .e-reading-holder .e-reading-info .p4 {
   font-size: 16px;
+  padding-top: 10px;
 }
 
 @media only all and (max-width: 910px) {
@@ -883,6 +978,7 @@ footer .logos .twit {
 .cartHolder {
   width: 100%;
   height: 150vh;
+  font-family: "Segoe UI";
 }
 .cartHolder .topBook {
   width: 100%;
@@ -890,21 +986,102 @@ footer .logos .twit {
   border-bottom: black solid 1px;
   padding: 100px 50px 50px 75px;
 }
+.cartHolder .topBook .topBook-holder {
+  width: 434px;
+  height: 317px;
+  display: flex;
+}
+.cartHolder .topBook .topBook-holder .image {
+  height: 317px;
+  width: 205px;
+  background-color: black;
+  background-image: url(../assets/misery.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.cartHolder .topBook .topBook-holder .cart-book-info {
+  margin-left: 20px;
+  width: 185px;
+  display: flex;
+  flex-direction: column;
+}
+.cartHolder .topBook .topBook-holder .cart-book-info .title {
+  padding-top: 5px;
+  font-weight: bold;
+}
+.cartHolder .topBook .topBook-holder .cart-book-info .price {
+  font-weight: bold;
+  padding-top: 20px;
+}
+.cartHolder .topBook .topBook-holder .cart-book-info .stock {
+  padding-top: 5px;
+}
+.cartHolder .topBook .topBook-holder .cart-book-info .qty {
+  padding-top: 35px;
+}
+.cartHolder .topBook .topBook-holder .cart-book-info .qty .change {
+  text-decoration: underline;
+}
+.cartHolder .topBook .topBook-holder .cart-book-info .qty .del {
+  text-decoration: underline;
+}
 .cartHolder .bottomBook {
   width: 100%;
   height: 50vh;
   border-bottom: black solid 1px;
   padding: 100px 50px 50px 75px;
 }
+.cartHolder .bottomBook .bottom-holder {
+  min-width: 434px;
+  height: 317px;
+  display: flex;
+}
+.cartHolder .bottomBook .bottom-holder .image {
+  height: 317px;
+  width: 205px;
+  background-color: black;
+  background-image: url(../assets/mlk-biography.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.cartHolder .bottomBook .bottom-holder .cart-book-info {
+  margin-left: 20px;
+  min-width: 185px;
+  display: flex;
+  flex-direction: column;
+}
+.cartHolder .bottomBook .bottom-holder .cart-book-info .title {
+  padding-top: 5px;
+  font-weight: bold;
+}
+.cartHolder .bottomBook .bottom-holder .cart-book-info .price {
+  font-weight: bold;
+  padding-top: 20px;
+}
+.cartHolder .bottomBook .bottom-holder .cart-book-info .stock {
+  padding-top: 5px;
+}
+.cartHolder .bottomBook .bottom-holder .cart-book-info .qty {
+  padding-top: 35px;
+}
+.cartHolder .bottomBook .bottom-holder .cart-book-info .qty .change {
+  text-decoration: underline;
+}
+.cartHolder .bottomBook .bottom-holder .cart-book-info .qty .del {
+  text-decoration: underline;
+}
 
 .login-signup-holder {
-  width: 100vh;
+  max-width: 100vh;
   height: 100vh;
   justify-content: space-between;
   align-items: center;
   margin: 0 auto;
   display: flex;
   padding: 100px;
+  font-family: "Segoe UI";
 }
 .login-signup-holder .login-holder {
   justify-content: center;
@@ -1047,4 +1224,77 @@ footer .logos .twit {
 }
 .login-signup-holder .signup-holder .signupBtn a {
   text-decoration: none;
+}
+
+@media only all and (max-width: 910px) {
+  .login-signup-holder {
+    display: flex;
+    flex-direction: column;
+  }
+  .login-signup-holder .login-holder .login-tit {
+    padding-top: 20px;
+  }
+  .login-signup-holder .login-holder .e {
+    padding-top: 20px;
+  }
+  .login-signup-holder .login-holder .p {
+    padding-top: 20px;
+  }
+  .login-signup-holder .login-holder .loginBtn {
+    margin-top: 20px;
+  }
+  .login-signup-holder .signup-holder {
+    padding-top: 20px;
+  }
+  .login-signup-holder .signup-holder .fn {
+    padding-top: 20px;
+  }
+  .login-signup-holder .signup-holder .ln {
+    padding-top: 20px;
+  }
+  .login-signup-holder .signup-holder .e {
+    padding-top: 20px;
+  }
+  .login-signup-holder .signup-holder .p {
+    padding-top: 20px;
+  }
+  .login-signup-holder .signup-holder .signupBtn {
+    margin-top: 20px;
+  }
+}
+@media only all and (max-width: 380px) {
+  .login-signup-holder {
+    display: flex;
+    flex-direction: column;
+  }
+  .login-signup-holder .login-holder .login-tit {
+    padding-top: 20px;
+  }
+  .login-signup-holder .login-holder .e {
+    margin-top: 20px;
+  }
+  .login-signup-holder .login-holder .p {
+    padding-top: 20px;
+  }
+  .login-signup-holder .login-holder .loginBtn {
+    margin-top: 20px;
+  }
+  .login-signup-holder .signup-holder {
+    padding-top: 20px;
+  }
+  .login-signup-holder .signup-holder .fn {
+    padding-top: 20px;
+  }
+  .login-signup-holder .signup-holder .ln {
+    padding-top: 20px;
+  }
+  .login-signup-holder .signup-holder .e {
+    padding-top: 20px;
+  }
+  .login-signup-holder .signup-holder .p {
+    padding-top: 20px;
+  }
+  .login-signup-holder .signup-holder .signupBtn {
+    margin-top: 20px;
+  }
 }
