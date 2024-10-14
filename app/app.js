@@ -16,9 +16,7 @@ function initURLListener() {
 
 
 $(document).ready(function () {
-<<<<<<< HEAD
-    loadPage("febFavs")
-=======
+
     loadPage("home")
     initURLListener();
     
