@@ -1,5 +1,4 @@
 import { loadPage, signIn, signUp, getSignedInStatus} from "../model/model.js";
-import { loadPage, signIn, signUp, addItemToCart } from "../model/model.js";
 
 let signedIn = false; 
 
